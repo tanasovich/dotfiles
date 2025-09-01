@@ -26,6 +26,7 @@ fi
 
 unset rc
 
+# Ignore duplicate commands and commands with leading whitespaces
 HISTCONTROL=ignoreboth
 
 # Prompt setup
