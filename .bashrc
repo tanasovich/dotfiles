@@ -27,9 +27,15 @@ fi
 unset rc
 
 HISTCONTROL=ignoreboth
+
+# Prompt setup
 PS1="[\w]\n\$ "
 PS2="=>"
+
+# Minecraft
 alias minecraft="~/.minecraft/minecraft-launcher"
+
+# Android Studio IDE
 alias android-studio="/opt/android-studio/bin/studio"
 
 # Dotfile version controlling
