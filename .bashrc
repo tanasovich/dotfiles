@@ -36,9 +36,6 @@ PS2="=>"
 # Minecraft
 alias minecraft="~/.minecraft/minecraft-launcher"
 
-# Android Studio IDE
-alias android-studio="/opt/android-studio/bin/studio"
-
 # Dotfile version controlling
 alias dotfiler="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 
