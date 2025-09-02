@@ -9,23 +9,23 @@ fi
 PATH=/home/vtanasovych/.local/bin:/home/vtanasovych/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/vtanasovych/.dotnet/tools
 export PATH
 
+# Using custom palette at TTY
 if [ "$TERM" = "linux" ]; then
-    echo -en "\e]P02b1f1d" #black
-    echo -en "\e]P1473532" #red
-    echo -en "\e]P2a55044" #green
-    echo -en "\e]P3457b51" #yellow
-    echo -en "\e]P47f6b32" #blue
-    echo -en "\e]P55167b5" #magenta
-    echo -en "\e]P6994a93" #cyan
-    echo -en "\e]P7347883" #white
-    echo -en "\e]P8d6c1be" #light black
-    echo -en "\e]P97f635e" #light red
-    echo -en "\e]PAc36556" #light green
-    echo -en "\e]PB569464" #light yellow
-    echo -en "\e]PC998140" #light blue
-    echo -en "\e]PD687fcd" #light magenta
-    echo -en "\e]PEb360ad" #light cyan
-    echo -en "\e]PF43919e" #light white
-    clear #for background artifacting
+    echo -en "\e]P0373d23"  # color0
+    echo -en "\e]P1c3877d"  # color1
+    echo -en "\e]P279a681"  # color2
+    echo -en "\e]P3a99768"  # color3
+    echo -en "\e]P48797c6"  # color4
+    echo -en "\e]P5b786b2"  # color5
+    echo -en "\e]P66aa4ae"  # color6
+    echo -en "\e]P7c1cda0"  # color7
+    echo -en "\e]P8667047"  # color8
+    echo -en "\e]P9d49f96"  # color9
+    echo -en "\e]PA8ebb97"  # color10
+    echo -en "\e]PBbead7d"  # color11
+    echo -en "\e]PC9fadd5"  # color12
+    echo -en "\e]PDc99ec4"  # color13
+    echo -en "\e]PE80b9c4"  # color14
+    echo -en "\e]PFf5f8ef"  # color15
+    clear
 fi
-
