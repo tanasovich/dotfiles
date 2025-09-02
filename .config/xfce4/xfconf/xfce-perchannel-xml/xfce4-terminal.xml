@@ -4,9 +4,9 @@
   <property name="color-foreground" type="string" value="#f1e9e8"/>
   <property name="color-background" type="string" value="#2b1f1d"/>
   <property name="color-background-vary" type="bool" value="false"/>
-  <property name="color-cursor-foreground" type="string" value=""/>
-  <property name="color-cursor" type="string" value="#dcdcdc"/>
-  <property name="color-cursor-use-default" type="bool" value="true"/>
+  <property name="color-cursor-foreground" type="string" value="#d6c1be"/>
+  <property name="color-cursor" type="string" value="#d6c1be"/>
+  <property name="color-cursor-use-default" type="bool" value="false"/>
   <property name="color-selection" type="string" value=""/>
   <property name="color-selection-background" type="string" value=""/>
   <property name="color-selection-use-default" type="bool" value="true"/>
