@@ -9,8 +9,8 @@ fi
 PATH=/home/vtanasovych/.local/bin:/home/vtanasovych/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/vtanasovych/.dotnet/tools
 export PATH
 
-# Using custom palette at TTY
 if [ "$TERM" = "linux" ]; then
+    # Using custom palette at TTY
     echo -en "\e]P0373d23"  # color0
     echo -en "\e]P1c3877d"  # color1
     echo -en "\e]P279a681"  # color2
@@ -27,5 +27,10 @@ if [ "$TERM" = "linux" ]; then
     echo -en "\e]PDc99ec4"  # color13
     echo -en "\e]PE80b9c4"  # color14
     echo -en "\e]PFf5f8ef"  # color15
+
+    # Set cursor as blinking block
+    echo -e '\033[?6c'
+
+    # Clear screen for pleasant look
     clear
 fi
