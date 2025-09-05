@@ -39,3 +39,9 @@ alias minecraft="~/.minecraft/minecraft-launcher"
 # Dotfile version controlling
 alias dotfiler="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 
+# Add basic auto-completions for dotfiler alias
+if [ -f /usr/share/bash-completion/completions/git ]; then
+    source /usr/share/bash-completion/completions/git
+    __git_complete dotfiler _git_main
+fi
+
