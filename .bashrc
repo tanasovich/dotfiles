@@ -26,6 +26,12 @@ fi
 
 unset rc
 
+# Set English language (just for any case, who knows)
+LANG=en_US.UTF-8
+
+# Set Spanish time locale
+LC_TIME=es_ES.UTF-8
+
 # Ignore duplicate commands and commands with leading whitespaces
 HISTCONTROL=ignoreboth
 
