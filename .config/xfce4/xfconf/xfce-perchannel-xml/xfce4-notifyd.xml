@@ -12,6 +12,7 @@
       <value type="string" value="org.freedesktop.problems.applet"/>
       <value type="string" value="org.xfce.Thunar"/>
       <value type="string" value="seapplet"/>
+      <value type="string" value="setroubleshoot"/>
       <value type="string" value="Studio"/>
       <value type="string" value="Thunderbird"/>
       <value type="string" value="Transmission"/>
